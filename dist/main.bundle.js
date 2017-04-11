@@ -560,7 +560,7 @@ var AppModuleNgFactory = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* 
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'I <3 Angular!';
+        this.title = 'Hello, 世界';
     }
     return AppComponent;
 }());
