@@ -96,11 +96,19 @@ function View_AppComponent_0(l) {
             '\n  ',
             '\n'
         ])),
+        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵted */](null, ['\n'])),
+        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_16" /* ɵeld */](0, null, null, 1, 'p', [], null, null, null, null, null)),
+        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵted */](null, [
+            '\n  ',
+            '\n'
+        ])),
         (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵted */](null, ['\n']))
     ], null, function (ck, v) {
         var co = v.component;
         var currVal_0 = co.title;
         ck(v, 1, 0, currVal_0);
+        var currVal_1 = co.body;
+        ck(v, 4, 0, currVal_1);
     });
 }
 function View_AppComponent_Host_0(l) {
@@ -110,7 +118,7 @@ function View_AppComponent_Host_0(l) {
     ], null, null);
 }
 var AppComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_19" /* ɵccf */]('app-root', __WEBPACK_IMPORTED_MODULE_2__app_app_component__["a" /* AppComponent */], View_AppComponent_Host_0, {}, {}, []);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9raGFkYS9Eb2N1bWVudHMvc3JjL2xpZnRyb2NrZXQvYW5ndWxhci9ibG9nL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgxPlxuICB7e3RpdGxlfX1cbjwvaDE+XG4iLCI8YXBwLXJvb3Q+PC9hcHAtcm9vdD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQ0FBO0lBQUk7TUFBQTtNQUFBO0lBQUE7SUFBQTtJQUVDOzs7O0lBRkQ7SUFBQTs7Ozs7SUNBSjtnQkFBQTs7OzsifQ==
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9raGFkYS9Eb2N1bWVudHMvc3JjL2xpZnRyb2NrZXQvYW5ndWxhci9ibG9nL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgxPlxuICB7e3RpdGxlfX1cbjwvaDE+XG48cD5cbiAge3tib2R5fX1cbjwvcD5cbiIsIjxhcHAtcm9vdD48L2FwcC1yb290PiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lDQUE7SUFBSTtNQUFBO01BQUE7SUFBQTtJQUFBO0lBRUM7SUFDTDtJQUFHO01BQUE7TUFBQTtJQUFBO0lBQUE7SUFFQzs7OztJQUxBO0lBQUE7SUFHRDtJQUFBOzs7OztJQ0hIO2dCQUFBOzs7OyJ9
 //# sourceMappingURL=app.component.ngfactory.js.map
 
 /***/ }),
@@ -561,6 +569,7 @@ var AppModuleNgFactory = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* 
 var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Do you know where your children are?';
+        this.body = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue tellus at ex tempor sodales. Nulla nec eros ante. Fusce bibendum fermentum mauris, vitae congue erat rutrum in. Pellentesque consectetur, erat ac pellentesque facilisis, sem est rutrum purus, vel efficitur felis leo at libero. Nulla vulputate enim quis ultricies vulputate. Sed consequat nulla lorem. Maecenas tincidunt malesuada enim, a rutrum elit ornare sit amet. Etiam odio orci, pharetra quis facilisis eu, pretium et mauris. Maecenas rutrum, dolor mollis ullamcorper varius, nisi tortor luctus tortor, ornare molestie tellus ante eu metus. Proin consequat nisi at lorem varius, sit amet congue arcu gravida. Donec vulputate sagittis venenatis.';
     }
     return AppComponent;
 }());
