@@ -110,7 +110,10 @@ function View_AppComponent_0(l) {
         ])),
         (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵted */](null, ['\n'])),
         (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_16" /* ɵeld */](0, null, null, 1, 'p', [], null, null, null, null, null)),
-        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵted */](null, ['\n  © 2017\n'])),
+        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵted */](null, [
+            '\n  ',
+            '\n'
+        ])),
         (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵted */](null, ['\n']))
     ], null, function (ck, v) {
         var co = v.component;
@@ -120,6 +123,8 @@ function View_AppComponent_0(l) {
         ck(v, 4, 0, currVal_1);
         var currVal_2 = co.quote;
         ck(v, 7, 0, currVal_2);
+        var currVal_3 = co.copyright;
+        ck(v, 10, 0, currVal_3);
     });
 }
 function View_AppComponent_Host_0(l) {
@@ -129,7 +134,7 @@ function View_AppComponent_Host_0(l) {
     ], null, null);
 }
 var AppComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_19" /* ɵccf */]('app-root', __WEBPACK_IMPORTED_MODULE_2__app_app_component__["a" /* AppComponent */], View_AppComponent_Host_0, {}, {}, []);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9raGFkYS9Eb2N1bWVudHMvc3JjL2xpZnRyb2NrZXQvYW5ndWxhci9ibG9nL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgxPlxuICB7e3RpdGxlfX1cbjwvaDE+XG48cD5cbiAge3tib2R5fX1cbjwvcD5cbjxwcmU+XG4gIHt7cXVvdGV9fVxuPC9wcmU+XG48cD5cbiAgJmNvcHk7IDIwMTdcbjwvcD5cbiIsIjxhcHAtcm9vdD48L2FwcC1yb290PiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lDQUE7SUFBSTtNQUFBO01BQUE7SUFBQTtJQUFBO0lBRUM7SUFDTDtJQUFHO01BQUE7TUFBQTtJQUFBO0lBQUE7SUFFQztJQUNKO0lBQUs7TUFBQTtNQUFBO0lBQUE7SUFBQTtJQUVDO0lBQ047SUFBRztJQUVDOzs7O0lBWEE7SUFBQTtJQUdEO0lBQUE7SUFHRTtJQUFBOzs7OztJQ05MO2dCQUFBOzs7OyJ9
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vaG9tZS9raGFkYS9Eb2N1bWVudHMvc3JjL2xpZnRyb2NrZXQvYW5ndWxhci9ibG9nL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL2hvbWUva2hhZGEvRG9jdW1lbnRzL3NyYy9saWZ0cm9ja2V0L2FuZ3VsYXIvYmxvZy9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgxPlxuICB7e3RpdGxlfX1cbjwvaDE+XG48cD5cbiAge3tib2R5fX1cbjwvcD5cbjxwcmU+XG4gIHt7cXVvdGV9fVxuPC9wcmU+XG48cD5cbiAge3tjb3B5cmlnaHR9fVxuPC9wPlxuIiwiPGFwcC1yb290PjwvYXBwLXJvb3Q+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUNBQTtJQUFJO01BQUE7TUFBQTtJQUFBO0lBQUE7SUFFQztJQUNMO0lBQUc7TUFBQTtNQUFBO0lBQUE7SUFBQTtJQUVDO0lBQ0o7SUFBSztNQUFBO01BQUE7SUFBQTtJQUFBO0lBRUM7SUFDTjtJQUFHO01BQUE7TUFBQTtJQUFBO0lBQUE7SUFFQzs7OztJQVhBO0lBQUE7SUFHRDtJQUFBO0lBR0U7SUFBQTtJQUdGO0lBQUE7Ozs7O0lDVEg7Z0JBQUE7Ozs7In0=
 //# sourceMappingURL=app.component.ngfactory.js.map
 
 /***/ }),
@@ -582,6 +587,7 @@ var AppComponent = (function () {
         this.title = "A better web for the children";
         this.body = "Let us talk about what we can do to make the web better... together! ";
         this.quote = "cd /path/to/project && git pull origin master && /usr/bin/ng build --aot && git add . && git commit -m \"build automatically\" && git push origin master &&  rsync -av /path/to/project/ /path/to/html/repo/ && cd /path/to/html/repo/ && git add . && git commit -m \"add everything\" && git push -u origin --all";
+        this.copyright = "&copy; 2017";
     }
     return AppComponent;
 }());
