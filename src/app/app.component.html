@@ -10,13 +10,52 @@
 <p>
   {{copyright}}
 </p>
-<p>
-  This is just plain text. 
-  j'ai faim 
-  我饿了 
-  我餓了 
-  나 배고파 
-  お腹が空きました 
-  я голоден 
-  estoy hambriento 
-</p>
+>
+    <div class="main" id="registration-form">
+        <form>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email-help" placeholder="Enter email" autofocus="autofocus" required>
+                <small id="email-help" class="form-text text-muted">Please make sure your email address is correct.</small>
+            </div>
+            <div class="form-group">
+                <label for="email-verify">Verify email address</label>
+                <input type="email" class="form-control" id="email-verify" aria-describedby="email-verify-help" placeholder="Please enter your email address again" autocomplete="off" required>
+                <small id="email-verify-help" class="form-text text-muted">This helps us prevent typographical errors in your email.</small>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="password-help" pattern=".{8,}" placeholder="Password" required>
+                <small id="password-help" class="form-text text-muted">Your password must be at least eight characters long.</small>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="scheckbox" name="organization-checkbox" id="organization-checkbox" onchange="valueChanged()">
+                    Check the box if you belong to a community organization or business and would like to extend the benefits of LiftRocket&trade; to your members
+                </label>
+            </div>
+            <div id="optional-fields">
+                <div class="form-group">
+                    <label for="organization-name">Organization</label>
+                    <input type="text" class="form-control" id="organization-name" aria-describedby="organization-name-help" placeholder="Organization name">
+                    <small id="organization-name-help" class="form-text text-muted">This field is only required for organization members.</small>
+                </div>
+                <div class="form-group">
+                    <label for="organization-city">City</label>
+                    <input type="text" class="form-control" id="organization-city" aria-describedby="organization-city-help" placeholder="City">
+                    <small id="organization-city-help" class="form-text text-muted">This is the city for your organization.</small>
+                </div>
+                <div class="form-group">
+                    <label for="organization-state">State</label>
+                    <select class="form-control" id="organization-state" aria-describedby="organization-state-help">
+                        <option>NJ</option>
+                        <option>NY</option>
+                        <option>PA</option>
+                    </select>
+                    <small id="organization-state-help" class="form-text text-muted">This is the state for your organization.</small>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
