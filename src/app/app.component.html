@@ -57,3 +57,16 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+<script type="text/javascript">
+    $(function() {
+        console.log( "ready!" );
+        $("#optional-fields").hide();
+    });
+    function valueChanged()
+    {
+        if($('#organization-checkbox').is(":checked"))   
+            $("#optional-fields").show(300);
+        else
+            $("#optional-fields").hide(200);
+    }
+</script>
