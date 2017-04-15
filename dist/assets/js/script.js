@@ -1,7 +1,7 @@
 "use strict";
 
 (function() {
-    var url = "https://liftrocket.herokuapp.com/api/v1/users/";
+    var url = "https://liftrocket.herokuapp.com/api/v0/users/";
     var httpRequest;
     makeRequest();
 
