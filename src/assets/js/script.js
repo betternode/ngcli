@@ -17,6 +17,12 @@
     function responseMethod() {
         if (httpRequest.readyState === 4) {
             console.log(httpRequest.responseText);
+            if (httpRequest.status === 200) {
+                console.log("hello, world!");
+                console.log(" you got 200");
+            } else { 
+                console.log(httpRequest.status);                
+            }
         }
     }
 })();
